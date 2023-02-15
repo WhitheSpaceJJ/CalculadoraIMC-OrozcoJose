@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 if(IMC<18.5){
                     txvIMC.setText(String.format("%.2f", IMC))
                   txvRange.setText("Bajo Peso")
-                    txvRange.setBackgroundResource(R.color.colorGreenish)
+                    txvRange.setBackgroundResource(R.color.purple_200)
                 }
                 else if(IMC>=18.5 && IMC<=24.9){
                     txvIMC.setText(String.format("%.2f", IMC))
